@@ -1,0 +1,46 @@
+.profile {
+width: 300px;
+border: 1px;
+border-color: blue;
+}
+
+.description {
+width: 300px;
+}
+
+.avatar {
+display: block;
+width: 150px;
+}
+
+.name {
+font-size: 18px;
+color: black;
+}
+
+.tag {
+font-size: 16px;
+color: gray;
+}
+
+.location {
+font-size: 16px;
+color: gray;
+}
+
+.stats {
+display: flex;
+justify-content: space-between;
+}
+
+.label {
+display: block;
+text-align: center;
+color: gray;
+}
+
+.quantity {
+display: block;
+text-align: center;
+color: black;
+}

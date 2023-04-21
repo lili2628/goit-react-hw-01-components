@@ -1,0 +1,15 @@
+.item {
+width: 50px;
+}
+
+.label {
+color: blue;
+font-size: 12px;
+display: block;
+}
+
+.percentage {
+color: blue;
+font-size: 16px;
+display: block;
+}
