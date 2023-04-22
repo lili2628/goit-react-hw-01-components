@@ -1,26 +1,29 @@
 .item {
 list-style: none;
+display: inline-block;
 
 padding-top: 10px;
 padding-bottom : 10px;
-padding-left: 15px;
-padding-right: 15px;
+padding-left: 12px;
+padding-right: 12px;
 
-
+width: 51px;
 }
 
 .label {
-color: azure;
-text-shadow: 1px 1px 1px lightgrey;
+color: #f3f6f4;
+text-shadow: 1px 1px 1px #bcbcbc;
 font-size: 12px;
+text-align: center;
 
 display: block;
 }
 
 .percentage {
-color: azure;
-text-shadow: 1px 1px 1px lightgrey;
+color: #f3f6f4;
+text-shadow: 1px 1px 1px #bcbcbc;
 font-size: 16px;
+text-align: center;
 
 display: block;
 }
