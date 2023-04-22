@@ -3,10 +3,10 @@ import css from 'components/TransactionHistoryItem/TransactionHistoryItem.module
 
 export const TransactionHistoryItem = ({type, amount, currency}) => {
     return (
-        <tr>
-            <td>{type}</td>
-            <td>{amount}</td>
-            <td>{currency}</td>
+        <tr className={css.table__row}>
+            <td className={css.table__col}>{type}</td>
+            <td className={css.table__col}>{amount}</td>
+            <td className={css.table__col}>{currency}</td>
         </tr>
     );
 }
