@@ -1,15 +1,26 @@
 .item {
-width: 50px;
+list-style: none;
+
+padding-top: 10px;
+padding-bottom : 10px;
+padding-left: 15px;
+padding-right: 15px;
+
+
 }
 
 .label {
-color: blue;
+color: azure;
+text-shadow: 1px 1px 1px lightgrey;
 font-size: 12px;
+
 display: block;
 }
 
 .percentage {
-color: blue;
+color: azure;
+text-shadow: 1px 1px 1px lightgrey;
 font-size: 16px;
+
 display: block;
 }
