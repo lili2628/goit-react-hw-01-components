@@ -21,3 +21,29 @@ text-align: center;
     border-right: 1px solid lightgrey;
 }
 
+.table__col:not(:last-child) {
+    border-right: 1px solid lightgrey;
+
+
+}
+
+.table__col {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    color: gray;
+}
+
+.table__row:nth-child(2n) {
+    background: #eeeeee;
+}
+
+.table__row:hover .table__col {
+    background: darkgray;
+    color: #f3f6f4;
+}
+
+.table__col:first-child {
+    text-transform: capitalize;
+}
+
